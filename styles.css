@@ -1,0 +1,71 @@
+body {
+    background-image: url('https://cdn-3.expansion.mx/dims4/default/e748dad/2147483647/strip/true/crop/1200x800+0+0/resize/1800x1200!/format/webp/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F3d%2Fa6%2F5a7717ad428d8bc0d21fb5590df0%2Fmercado-libre-075-porzycki-software211030-npw3m.jpeg'); /* Reemplaza esta URL con la URL de tu imagen */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: 'Arial', sans-serif;
+    color: #ffffff; 
+  }
+  
+  h1 {
+    color: #ffffff; 
+  }
+  
+  .input-group {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #searchButton {
+    background-color: #ffd000;
+    border-color: #ffc400;
+  }
+  
+  #searchButton:hover {
+    background-color: #b37a00;
+    border-color: #ffc400;
+  }
+  
+  .product-card {
+    margin: 20px 0;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo de las tarjetas semi-transparente */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  
+  .card-text {
+    font-size: 1em;
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #ffe600;
+    border-color: #ffd900;
+  }
+  
+  .btn-primary:hover {
+    background-color: #b38300;
+    border-color: #855b00;
+  }
+  
+  
+  

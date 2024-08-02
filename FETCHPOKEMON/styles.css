@@ -1,0 +1,86 @@
+body {
+    background-image: url('https://api.wallpapers.ai/static/downloads/5d226adf8ffa45e7a48d561c073bc604/upscaled/000000_770458249_kdpmpp2m15_PS7.5_PC_background._Fondo_de_pantalla_de_PC_de_Pok_mon,_imagen_con_animaciones._Digital_art._Concept_art_[upscaled].jpg'); /* Imagen de fondo temática */
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    font-family: 'Press Start 2P', cursive; 
+    color: #000000; 
+  }
+  
+  h1 {
+    color: #ffcc00; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8); 
+    font-size: 3em; 
+  }
+  
+  .input-group {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  #searchQuery {
+    border-radius: 0; 
+    border: 2px solid #ffcc00; 
+    background-color: #ffffff; 
+    color: #000000; 
+    font-size: 1.2em;
+  }
+  
+  #searchButton {
+    background-color: #ffcc00; 
+    border-color: #ffcc00; 
+    color: #000; 
+    border-radius: 0; 
+    font-size: 1.2em;
+  }
+  
+  #searchButton:hover {
+    background-color: #ff9900; 
+    border-color: #ff9900; 
+    color: #ffffff; 
+  }
+  
+  .pokemon-card {
+    margin: 20px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card {
+    border: 3px solid #ffcc00; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); 
+    background: rgba(0, 0, 0, 0.8); 
+    color: #fff; 
+    overflow: hidden; 
+  }
+  
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9); 
+  }
+  
+  .card-img-top {
+    border-bottom: 3px solid #ffcc00; 
+  }
+  
+  .card-title {
+    font-size: 2em; 
+    color: #ffcc00; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); 
+  }
+  
+  .card-text {
+    font-size: 1.2em; 
+    color: #e0e0e0; 
+  }
+  
+  .btn-primary {
+    background-color: #ffcc00; 
+    border-color: #ffcc00;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff9900; 
+    border-color: #ff9900; 
+  }
